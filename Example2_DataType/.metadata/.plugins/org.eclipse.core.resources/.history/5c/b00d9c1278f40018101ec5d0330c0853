@@ -1,0 +1,48 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo2Condition {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * 
+		System.out.println("Ecrire une application qui permet d'indiquer pour un nombre entier donné s'il est positif, négatif ou null");
+		*
+		*
+		*/
+
+		Scanner s = new Scanner(System.in);
+		char confirm = 'y';
+			
+		 System.out.println("\n--------- Example 2 ---------\n");
+		 
+		 while(confirm == 'y') {
+		 System.out.println("Enter Number Négatif, Positif où Null ");
+		 int sum2 = s.nextInt();
+		 int ex2Num = 0;
+		 if(sum2 < ex2Num) {
+			 System.out.println("Négatif");
+		 } else if (sum2 > ex2Num){
+			 System.out.println("Positif");
+		 }else {
+			 System.out.println("Null");
+		 }
+		 
+			System.out.println("\n--------------\n");
+			System.out.println("If You Want To Try Again Enter (y) ?: Or Any Char To Exit ");
+			confirm = s.next().charAt(0);
+			
+			if(confirm != 'y') {
+				System.out.println("Your Have Been Exit of Application");
+			}
+	
+		 }
+		
+
+	
+
+	}//Main
+
+}

@@ -1,0 +1,48 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		/*
+        *
+        *
+		System.out.println("Ecrire une application qui permet de vérifier pour un numbre entier s'il est dans l'intervalle[50,100]?");
+		*/
+
+		Scanner s = new Scanner(System.in);
+		char confirm = 'y';
+
+	
+		 System.out.println("\n--------- Example 3 ---------\n");
+		 
+		 while(confirm == 'y') {
+		 System.out.println("Enter Number Between 50 And 100");
+		 
+		 int num = 50, num2 = 100;
+		 int res = s.nextInt();
+		 
+		 if(res < num) {
+			 System.out.println("Your Number Small Then 50");
+		 } else if (res >= num && res <= num2){
+			 System.out.println("Your Number Is Correct :" + " " + res);
+		 }else {
+			 System.out.println("Your Number Bigger Then 100");
+		 }
+		 
+			System.out.println("\n--------------\n");
+			System.out.println("If You Want To Try Again Enter (y) ?: Or Any Char To Exit");
+			confirm = s.next().charAt(0);
+			
+			if(confirm != 'y') {
+				System.out.println("Your Have Been Exit of Application");
+			}
+	 }
+
+		
+
+
+	}//Main
+
+}

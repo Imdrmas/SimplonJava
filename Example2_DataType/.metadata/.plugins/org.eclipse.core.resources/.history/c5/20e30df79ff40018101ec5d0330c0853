@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	     
+	        Scanner sc = new Scanner(System.in);
+	        System.out.println("Enter a number : ");
+	        
+	       double age = sc.nextInt();
+	        
+	       int x=1;
+	        switch(x)
+	        {
+	        case 1: if((age>=60)&&(age<200))
+	            System.out.println("Senior Citizen");
+	        case 2: if((age>=18)&&(age<60))
+	            System.out.println("Adult");
+	        case 3: if((age>=12)&&(age<18))
+	            System.out.println("Teenager");
+	            break;
+	        default :
+	            System.out.println("Child");
+	            break;
+	        }
+	}
+
+}

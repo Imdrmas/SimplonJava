@@ -1,0 +1,35 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		/*
+        *
+        *
+		System.out.println("Ecrire une application qui permet de vérifier pour un numbre entier s'il est dans l'intervalle[50,100]?");
+		*/
+
+		Scanner s = new Scanner(System.in);
+
+	
+		 System.out.println("\n--------- Example 3 ---------\n");
+		 System.out.println("Enter Number Vérifier Pour Intervalle");
+		 
+		 double numD = 50.100;
+		 int res = s.nextInt();
+		 
+		 if(numD == res) {
+			 System.out.println("Number n'est pas intier ");
+		 } else{
+			 System.out.println("Sortir de range");
+		 }
+		
+
+		
+
+
+	}//Main
+
+}

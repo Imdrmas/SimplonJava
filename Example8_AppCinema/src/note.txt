@@ -1,0 +1,18 @@
+		
+		/*
+		 *  Ecrire une application de vente des billet de cinema
+		 
+		 Le prix du billet depond de l'age du client et de son lieu de réside à Montreil ou pas
+		 pour le clients moins de 3 ans -> Le billet est gratuit
+		 pour les clients résidents à Montruit d'age inférieur à 60 ans Le billet coute 5 euros
+		 pour les Clients non Résidants à Montruit d'age inférieur à 60 ans Le billet est cout 8 euros
+		 et pour les pressonnes agées au dela de 60 ans Le billet coute 4 euros
+		 
+		 Exmple output
+		 Quel âge avez vous?
+		 30
+		 Habitez-vous à Montruit ? 1 oui / 2 non
+		 1
+		 Le billet coute 5 euros
+		 *  
+		 */

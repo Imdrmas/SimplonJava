@@ -1,0 +1,10 @@
+Ecrire une appliaction pour un gérant de restaurant pour la gestion de ses commands clients
+pour pouvoir proposer à ses clients un prix de 9€ quel soit le menu, il impose certaines règles !
+pour le menu poulet, il propose donc accompagnement au choix: des lègumes fraites, des frites ou du riz
+Et une boisson: Eau plate, Eau gazeuse, ou soda
+
+La viande de boeuf et sa préparation reviennnent un peu plus cher restaurant Les commpagnements proposé sont même 
+mais cette fois-ci pas de boisson inclue dans le menu
+
+enfin le menu végétarion est toujours compsé de lèguemts frais, on peut choisir d'avoir en plus un peu de riz
+une boisson est aussi proposée avec menu

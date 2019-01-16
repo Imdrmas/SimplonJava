@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number of Candidat : ");
+
+		int note = sc.nextInt();
+
+		switch (note) {
+		case 16:
+		case 20:
+			System.out.println("Excellent");
+			break;
+		case 14:
+		case 15:
+			System.out.println("Bien");
+			break;
+		case 13:
+		case 10:
+			System.out.println("Assez Bien");
+			break;
+		case 9:
+			System.out.println("Insuffisant");
+		default:
+			System.out.println("Rejer");
+		}
+	}
+
+}

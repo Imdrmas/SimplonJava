@@ -1,0 +1,42 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Restaurant {
+
+	public static void main(String[] args) {
+		/*
+		 *  Proposer une Carte de Restaurant à un client et Afficjer son Choix
+		 */
+		
+		//Indication:
+		// - Afficher à l'utilisateur une carte de Restaurant et lui demander de choisir un Menu
+		// - La carte propose 3 Menus : Poulet, Boeuf, Végétarien
+		// - Afficher sur la console Le Choix Du Client
+		
+		// avec if and else et switch
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("Choisir que Vous Voulez à Manger");
+		
+		String poulet = "Poulet";
+		String boeuf = "Boeuf";
+		String vegeratien = "Végératien";
+		
+		System.out.println("\n-----------");
+		System.out.println(poulet);
+		System.out.println("-----------");
+		System.out.println(boeuf);
+		System.out.println("-----------");
+		System.out.println(vegeratien);
+		System.out.println("-----------");
+		
+		String menu = s.toString();
+		
+		
+		
+
+
+	}
+
+}

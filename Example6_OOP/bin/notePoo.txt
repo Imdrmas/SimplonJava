@@ -1,0 +1,107 @@
+Définir La Poo
+
+un objet est un composant il représente un concept une entité
+un object possède une structure ce sont ses propriétés ou attributs
+ces propriétés décrivent ses caractéristiques ce que le compse c'est des variables propres à un object
+
+
+La Classe
+une class définit un ensemble d'entités, d'object -> c'est un modéle une description c'est en quelques sorte une squelette
+elle définit la sctuture et le comportement
+la class et sttique. une fois compilée, elle ne peut pas muter donc changer de comportement
+
+le développeur devra modifier le code pour faire évoluer la classe 
+Si cette Classe n'estpas modifiable il faudra créer une nouvelle classe héritant de la premier
+
+Classe, Propriété, Méthode
+
+voici un example
+
+class Animal{
+un déclare les propriété en début de classe il s'agit de variables propre à un objet
+on fait référence à une propriété en mettant this devant
+}
+
+Class ClassName{
+Declare instance variables
+Type var1;
+type var2;
+
+Decalre methods
+type method(params){
+body of method
+}
+
+}
+
+Constructeur et destructeur
+toot object a une vie l'acte de créer une instance d'une classe est appéle instanciation de cet objet
+On instancie un objet une classe
+pour créer un objet on utilise Constructeur
+
+Example:
+
+String nom;
+int age;
+
+public Person(String nom; int age){
+super(nom, age);
+this.nom = nom;
+this.age = age;
+}
+
+
+Person p = new Person(Srmas, 28);
+
+Destructeur
+
+En JAVA, on ne supprime pas d'objet
+c'est le ramasse-miette (garbage collector) qui s'exécute en tache de fond et détruit tous les objets qui ne sont plus
+référence quand on lui assigne la valeur null ou quand son scope (périmètre de vie) est fini notion vue plus tard).
+
+Static
+
+Le Mot clef static très important
+
+L'héritage
+une class est décrite par des propriétés et des méthodes. chaque classe a ses spécifictés.
+Le but de l'héritage est regrouper les propriétés et les méthode communes à plusieur classes dans une nouvelle classe 
+la classe parente puis d'hériter de cette classe
+
+L'héritage est toujours additif; il est impossible d'hériter d'une classe
+
+L'héritage
+On peut faire appel au constrcteur de la classe mère en utilisant le mont-clé super() avec les paramètre requis. super remplace le nom
+du constrcteur de la classe mère.
+L'instrction super() doit être obligatoirement la première instrction des constrcteurs de la classes fille. tout constrcteur d'une classe fille
+appelle forcément l'un des constrcteur de la classe mère : si cest appel n'est pas explicite, l'appel du constrcteur par défaut
+(sans paramètre) est effectué implicitement. ainsi un objet dérivé est
+toujours constrcteur sur la base d'un object de sa classe mère
+
+Les sous-classes n'ont pas accès aux nembres private de leur classe mère
+
+
+L'encapsulation
+l'idée d'encansplation est apparue dès de début de la poo. le but est protéger l'objet 
+en ne montrant que les méthodes de manipulation.
+
+On cache les propriété et les méthodes internes au fonctionnement de l'object
+
+*private Visibilté restreinte à la classe
+*public visisiblité de tout
+*protected visisblité restreinte à la classe et aux descendants
+
+
+Le Polymorphisme
+
+cette notion intervient les méthodes (et nom sur les proprétés).
+une methode possède une signateure: un nom, un retour, des paramètres, et une visiblité
+
+
+par surcharge (overload)
+par redéfinition (overrid)
+par interface
+
+
+
+

@@ -1,0 +1,30 @@
+On utilise l'instruction break pour sortir du programme (ou d'un case à l'intérieur d'un switch).
+
+Analysons cet Example:
+calss Break{
+public static void main(String[] args){
+boolean t true;
+System.out.println("Avant le break");
+if(!t){
+System.out.prinln("Aprés Break");
+break;
+}
+}
+}
+
+Les boucles vous permettent simplement d'effectuer des tâches répétitives.
+
+il existe plusieur sortes de boucles:
+
+la boucle WHILE(condition){....} -> évalue la condition puis exécute éventuellemnt un tour de boucle (ou plus);
+
+la boucle do{....} WHILE permet d'initialise un compteur, une condition et un incrément dans 
+sa déclaration afin de répéter un morceau de code en délimiter le début et la fin.
+
+Tous comme les conditions, si une boucle contient plus d'une ligne de code à exécuter.
+
+While(boolean){
+//Code 
+}
+
+-> 

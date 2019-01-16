@@ -1,0 +1,3 @@
+INDEX VERSION 1.131
+/Users/drmas/Desktop/SimplonJava/Java_2EE_Example/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4128335682.index
+/GreatingAnApplication/src

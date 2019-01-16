@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a number of Candidat : ");
+
+		int note = sc.nextInt();
+
+		int x = 1;
+		switch (x) {
+		case 1:
+			if ((note >= 16) && (note <= 20))
+				System.out.println("Excellent");
+		case 2:
+			if ((note >= 14) && (note <= 15))
+				System.out.println("Bien");
+		case 3:
+			if ((note >= 12) && (note <= 13))
+				System.out.println("AssezBien");
+			break;
+		case 4:
+			if ((note < 10) && (note <= 11))
+				System.out.println("Passable");
+			break;
+		case 5:
+			if ((note >= 8) && (note <= 9))
+				System.out.println("Insuffisant");
+			break;
+		case 6:
+			if ((note < 7))
+				System.out.println("Insuffisant");
+			break;
+		default:
+			System.out.println("A Rejer");
+			break;
+		}
+	}
+
+}

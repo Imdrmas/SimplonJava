@@ -1,0 +1,59 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo1Condition {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * 
+		System.out.println("Ecrire une application qui permet de comparer 2 Nombres entiers etafficher le plus petit ?");
+		*
+		*
+		*/
+		
+	    /*	
+		int num1 = 10, num2 = 20;
+		if(num1 < num2) {
+			System.out.println("Number 1 Plus Petit Que Number 2");
+		} else if(num1 == num2) {
+			System.out.print("Your Numbers Are Equals");
+		}else {
+			System.out.println("Number 2 Plus Grand Que Number 1");
+		}
+        */
+		Scanner s = new Scanner(System.in);
+		int exo1N1, exo2N2;
+		char confirm = 'y';
+			
+		while(confirm == 'y') {
+		System.out.println("Enter Number 1");
+		exo1N1 = s.nextInt();
+		
+		System.out.println("Enter Number 2");
+		exo2N2 = s.nextInt();
+
+			if(exo1N1 < exo2N2) {
+				System.out.println("Number 1 Plus Petit Que Number 2");
+			}else if(exo1N1 == exo2N2) {
+				System.out.print("Your Numbers Are Equals");
+			}else {
+				System.out.println("Number 2 Plus Grand Que Number 1");
+			}
+
+			System.out.println("\n--------------\n");
+			System.out.println("If You Want To Try Again Enter (y) ? :");
+			confirm = s.next().charAt(0);
+			
+			if(confirm != 'y') {
+				System.out.println("Your Have Been Exit of Application");
+			}
+			
+		}
+		
+
+
+	}//Main
+
+}

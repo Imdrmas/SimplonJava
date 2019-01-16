@@ -1,0 +1,47 @@
+import java.util.Scanner;
+
+public class Exo3Condition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	     double num1, num2;
+	        Scanner sc = new Scanner(System.in);
+	        System.out.println("Enter a number : ");
+	        num1 = sc.nextDouble();
+	        System.out.println("Enter another number : ");
+	        num2 = sc.nextDouble();
+
+	        System.out.println("What do you want to perform on these numbers? ");
+	        sc.nextLine();
+	        String word = sc.nextLine();
+
+	        sc.close();
+	        
+	        double result = 0;
+	        switch (word) {
+	            case "Addition":
+	                result = num1 + num2;
+	                System.out.println(num1 + " " + word + " " + num2 + " : " + result);
+	                break;
+	            case "Subtraction":
+	                result = num1 - num2;
+	                System.out.println(num1 + " " + word + " " + num2 + " : " + result);
+	                break;
+	            case "Multiplication":
+	                result = num1 * num2;
+	                System.out.println(num1 + " " + word + " " + num2 + " : " + result);
+	                break;
+	            case "Division":
+	                result = num1 / num2;
+	                System.out.println(num1 + " " + word + " " + num2 + " : " + result);
+	                break;
+	            default:
+	                System.out.println("You have entered a wrong action, please try again ");
+	                break;
+	        
+	        
+
+	}
+
+}

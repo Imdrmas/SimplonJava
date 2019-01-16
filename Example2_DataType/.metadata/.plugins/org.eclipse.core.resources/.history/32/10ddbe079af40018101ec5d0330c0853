@@ -1,0 +1,66 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo2Condition {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * Voici les régles de notre programme: 1- Chaque candidat aa une mention entre
+		 * "Excellent" et "A rejecter". il y en en tout
+		 * 
+		 */
+
+		//System.out.println("Candidat, Electeurs Votes");
+		// Excellent, Trés bien, Bien, Assez Bien, Passable, Insuffisant, A rejecter
+
+		// 1- Tableau avec les noms des candidats + mentions
+		// 2- ajout bulletin x10
+		// 3- Tri de mention / par condidat
+		// 4- Ajout cette info dans le tableau
+		// 5- répéter l'action jusqu'à ce qu'il n'y ait plus de bulletins
+		
+		/*
+		 * Condition ternaires
+		 */
+		
+		int x = 10, y = 20;
+		int max = (x < y) ? y :x;
+		//System.out.println(max);
+		
+		int max2 = (x < y) ? y * 2 : x * 2;
+		System.out.println(max2);
+		
+		int max3 = (x < y) ? (y < 10 ) ? y % 10 : y * 2 : x;
+		System.out.println(max3);
+		
+		max = (x < y) ? ((y < 10) ? y % 10 : y * 2): x;
+		System.out.println(max);
+		
+		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Enter Note");
+		int note = s.nextInt();
+		
+		int degree = 0;
+		
+		if(note >= 16 && note == 20) {
+			degree = 1;
+		} else if ((note <= 14) && (note < 16)){
+			degree = 2;
+		}
+		
+		
+		switch(degree) {
+		case 1:
+			System.out.println("Excellent"); break;
+		case 2:
+			System.out.println("Bien"); break;
+			}
+
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class testSegment {
+
+	public static void main(String[] args) {
+		
+		segmentDeDroite seg1 = new segmentDeDroite(-35, 44, 8);
+        seg1.verifierSegment();
+       System.out.println();
+		segmentDeDroite seg2 = new segmentDeDroite(44, -35, 100);
+		seg2.verifierSegment();
+
+}
+}

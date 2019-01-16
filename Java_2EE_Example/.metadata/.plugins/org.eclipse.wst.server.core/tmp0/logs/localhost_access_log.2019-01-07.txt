@@ -1,0 +1,6 @@
+127.0.0.1 - - [07/Jan/2019:09:31:32 +0100] "GET / HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:09:31:34 +0100] "GET /ServletFormData/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:09:31:46 +0100] "GET /ServletFormData/HelloForm?first_name=drmas&last_name=issam HTTP/1.1" 200 308
+127.0.0.1 - - [07/Jan/2019:09:36:08 +0100] "GET / HTTP/1.1" 404 996
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:09:36:23 +0100] "GET /ServletFormData/HelloForm?first_name=drmas&last_name=assail HTTP/1.1" 200 319
+0:0:0:0:0:0:0:1 - - [07/Jan/2019:09:37:40 +0100] "GET /ServletFormData/HelloForm?first_name=ss&last_name=ss HTTP/1.1" 200 312

@@ -1,0 +1,83 @@
+package drmas;
+
+import java.util.Scanner;
+
+public class Exo2Condition {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * Voici les régles de notre programme: 1- Chaque candidat aa une mention entre
+		 * "Excellent" et "A rejecter". il y en en tout
+		 * 
+		 */
+
+		System.out.println("Candidat, Electeurs Votes");
+		// Excellent, Trés bien, Bien, Assez Bien, Passable, Insuffisant, A rejecter
+
+		// 1- Tableau avec les noms des candidats + mentions
+		// 2- ajout bulletin x10
+		// 3- Tri de mention / par condidat
+		// 4- Ajout cette info dans le tableau
+		// 5- répéter l'action jusqu'à ce qu'il n'y ait plus de bulletins
+
+		Scanner s = new Scanner(System.in);
+		String str1 = "", str2="", str3="", str4="", str5 = "";
+
+		int g1=0, g2=0, g3=0, g4=0, g5=0;
+
+		int x = 5;
+		int xx = 5;
+
+		System.out.println("Enter Name of Stduant number :");
+		switch (x) {
+		case 1:
+			str1 = s.next();
+			g1 = s.nextInt();
+			break;
+		case 2:
+			str2 = s.next();
+			break;
+		case 3:
+			str3 = s.next();
+			break;
+		case 4:
+			str4 = s.next();
+			break;
+		case 5:
+			str5 = s.next();
+			break;
+
+		}
+		
+		System.out.println("Enter Grade of Stduant number " + x + ":");
+		switch (x) {
+		case 1:
+			g1 = s.nextInt();
+			break;
+		case 2:
+			g2 = s.nextInt();
+			break;
+		case 3:
+			g3 = s.nextInt();
+			break;
+		case 4:
+			g4 = s.nextInt();
+			break;
+		case 5:
+			g5 = s.nextInt();
+			break;
+
+		}
+		
+		String res = "";
+		switch(x) {
+		case 1:
+			res = "Name " + str1 + " Garde " + g1; break;
+		case 2:
+			res = "Name " + str2 + " Garde " + g2; break;
+		}
+
+	}
+
+}

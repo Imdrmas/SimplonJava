@@ -1,0 +1,14 @@
+Les Conditions:
+
+il existe plusieurs sortes de structures conditionnelles:
+
+* la structure if()... else if()... else;
+Si un bloc d'instructions contient plus d'une ligne, on utilise les accolades afin de bien en délimiter le début et la fin;
+
+* la structure switch... case.... default;
+pour la structure switch, pensez à mettre les instructions break; si vous ne souhaitez exécuter qu'un seule bloc case;
+
+* la structure ?:, les conditions ternaires
+pour pouvoir mettre une condition en place, on compare des variables à l'aide d'opérateurs logiques,
+
+Vous pouvez mettre autant autant de comparaisons renvoyant un boolean que vous le souhaitez dans une condition

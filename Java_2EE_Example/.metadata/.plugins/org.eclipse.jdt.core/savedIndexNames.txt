@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/Users/drmas/Desktop/SimplonJava/Java_2EE_Example/.metadata/.plugins/org.eclipse.jdt.core
+2710363012.index
+2862999493.index

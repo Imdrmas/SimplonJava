@@ -1,0 +1,18 @@
+UML = Unified Modeling Langage:
+
+Une Architecture adapté est la clé de succès d'un développement, UML est un langage formel et normalisé
+un loginciel à développer est donc considéré comme un system, vu au départ comme une boîte noire.
+Le systeme est utilisé par des acteurs principaux, et parfois, il peut être lié à des acteurs secondaires.
+
+Vue Logique 
+Vue des composant
+Vue des processeur
+
+
+Relations
+
+Les existe trois type fondamentaux de relation entre classes:
+
+Notion d'association = Dependance Sémantique -1 Pour 1, -1 pour n, -n pour n. ("Cartedinalité")
+
+Héritage, Généralisation, Spécialisation

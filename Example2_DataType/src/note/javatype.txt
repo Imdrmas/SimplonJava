@@ -1,0 +1,19 @@
+Byte peut contenir les entries entre -128 et + 127 : Temperature = 64
+Short contient les entries compris entre -32768 et + 32767 : VitesseMax = 3200
+Int va de -2*109 à 2*109 (2 et 9 Zéros derrère) : temeratureSoleil = 15600000
+Long peut aller -9x1018 à 9x1018 (entre plus gros) : anneeLumiere 94607000000000000L
+Float est utilisé pour les nombres avec une virgule flottante : pi = 3.141592653F
+Double est identique à float si ce n'est qu'il contenir plus de chiffres la virgule et qu'il n'a pas de suffixe : divisions 0.333333....
+Char Caractere = 'A'
+Boolean Question = True où false
+String Le type String permet de gérer les chaînes de caracteres c'est-à-dire le stockage de test. il s'agit d'une variable d'un type plus complexe
+que l'on appelle objet.
+
+//Méthode de déclaration
+String phrase;
+phrase = "voici mon eemple";
+String str = new String();
+String string = "Une autre chaîne";
+String chaine = new String("Et une de plus !");
+
+

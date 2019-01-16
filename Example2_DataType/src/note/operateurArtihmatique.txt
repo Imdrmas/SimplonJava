@@ -1,0 +1,15 @@
+Les Opérateurs Arithmétiques:
+
+"+" permet d'additionner deux varables numériques  = ADDIDTION n1 = n1 + 1, n1 +=1, n1++, ++n1;
+
+"-" Permet de Soustraitre deux varialbes numériques = SOUSTRACTION n1 = n1 - 1, n1 -= 1, n2--, --n1;
+
+"*" Permet de multiplier deux variables numériques = MULTIPLICATION n1 = n1 * 2, n1 *=2;
+
+"/" Permet de Diviser deux variables numériques = DIVISION n1 = n1 / 2, n1 /= 2;
+
+"%" permet de renvoyer le rest de division entrière de deux variables de type numériques = MODULO
+c'est Operation s'appelle MODULO
+
+Les Paranthése ()
+Incrémentation ++ où --

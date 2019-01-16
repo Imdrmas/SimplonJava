@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/drmas/Desktop/SimplonJava/Example3/.metadata/.plugins/org.eclipse.jdt.core
+3028131221.index
+3279596803.index
+3331447380.index
+1993042143.index
+706283574.index
