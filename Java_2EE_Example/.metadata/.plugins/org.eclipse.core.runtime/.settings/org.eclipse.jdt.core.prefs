@@ -9,3 +9,4 @@ org.eclipse.jdt.core.compiler.compliance=1.8
 org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
 org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
 org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.eclipselink=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/Users/drmas/Desktop/SimplonJava/Java_2EE_Example/eclipselink/jlib/eclipselink.jar"/>\n\t<archive path\="/Users/drmas/Desktop/SimplonJava/Java_2EE_Example/eclipselink/jlib/jpa/org.eclipse.persistence.jpars.source_2.7.4.v20190115-ad5b7c6b2a.jar"/>\n</userlibrary>\n

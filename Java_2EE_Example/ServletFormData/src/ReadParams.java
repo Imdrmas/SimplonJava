@@ -8,7 +8,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class ReadParams extends HttpServlet {
-	  // Method to handle GET method request.
+	  /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	// Method to handle GET method request.
 	   public void doGet(HttpServletRequest request, HttpServletResponse response)
 	      throws ServletException, IOException {
 	      
@@ -32,7 +37,7 @@ public class ReadParams extends HttpServlet {
 	         "</tr>\n"
 	      );
 
-	      Enumeration paramNames = request.getParameterNames();
+	      Enumeration<?> paramNames = request.getParameterNames();
 
 	      while(paramNames.hasMoreElements()) {
 	         String paramName = (String)paramNames.nextElement();

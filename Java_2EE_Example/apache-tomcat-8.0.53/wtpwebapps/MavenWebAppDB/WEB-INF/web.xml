@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>MavenWebAppDB</display-name>
+
+  <servlet>
+  	<servlet-name>DbDemoServlet</servlet-name>
+  	<servlet-class>com.issamdrmas.DbDemoServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>SaveServlet</display-name>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<servlet-class>com.issamdrmas.SaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>UpdateServlet</display-name>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<servlet-class>com.issamdrmas.UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>DbDemoServlet</servlet-name>
+  	<url-pattern>/DbDemoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SaveServlet</servlet-name>
+  	<url-pattern>/SaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

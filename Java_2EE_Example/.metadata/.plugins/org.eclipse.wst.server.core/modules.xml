@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.jee.server:LoginRegistration" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:BookStore" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:DemoApp" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ServletFormData" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MavenWebAppDB" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:SecondMaven" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Guestbook" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MavenWithModel" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:FirstServlet" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MyMarketWeb" serverId="Tomcat v8.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:MyBookStore" serverId="Tomcat v8.0 Server at localhost"/>
 </modules>
